@@ -1,3 +1,6 @@
+/*
+2023 KAKAO BLIND RECRUITMENT
+*/
 #include <iostream>
 #include <string>
 #include <vector>
