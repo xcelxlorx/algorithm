@@ -50,3 +50,9 @@ for (const auto& [key, value] : m) {
   cout << "[" << key << "," << value << "]\n";
 }
 ```
+
+### set
+```
+#include <set>
+s.insert(e);
+```
