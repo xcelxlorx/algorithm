@@ -25,3 +25,28 @@ long long ll = stoll(s);
 float f = stof(s);
 double d = stod(s);
 ```
+
+### stringstream
+```
+#include <sstream>
+for(auto record : records){
+  stringstream ss(record);
+  string time, number, state;
+  ss >> time >> number >> state;
+}
+```
+
+### ceil, floor
+```
+#include <cmath>
+cout << ceil(4.2) << '\n; //5.0
+cout << floor(4.2) << '\n; //4.0
+```
+
+### map
+```
+#include <map>
+for (const auto& [key, value] : m) {
+  cout << "[" << key << "," << value << "]\n";
+}
+```
