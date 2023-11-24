@@ -97,3 +97,16 @@ s = regex_replace(s, regex("\\.+"), "."); //.이 1개 이상 있을 경우
 s = regex_replace(s, regex("^\\."), ""); //맨 앞에 .이 있을 경우
 s = regex_replace(s, regex("\\.$"), ""); //맨 뒤에 .이 있을 경우
 ```
+
+## function
+### replace_all
+```
+string replace_all(string str, string from, string to){
+    int pos = 0;
+    while((pos = str.find(from, pos)) != string::npos){
+        str.replace(pos, from.length(), to);
+        pos += to.length();
+    }
+    return str;
+}
+```
