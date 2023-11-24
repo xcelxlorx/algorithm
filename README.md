@@ -36,6 +36,9 @@ for(auto record : records){
   string time, number, state;
   ss >> time >> number >> state;
 }
+
+//공백을 기준으로 반복
+while(ss >> s){}
 ```
 
 ### ceil, floor
@@ -111,4 +114,12 @@ string replace_all(string str, string from, string to){
     return str;
 }
 //regex_replace 쓰기
+```
+
+### map value sort
+```
+vector<pair<string, int>> v(m.begin(), m.end());
+sort(v.begin(), v.end(), [](pair<string, int> a, pair<string, int> b){
+    return a.second > b.second;
+});
 ```
