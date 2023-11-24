@@ -91,6 +91,7 @@ c = tolower('A');
 ```
 
 ### regex
+특수문자는 이스케이프 문자 붙여주기!
 ```
 #include <regex>
 s = regex_replace(s, regex("\\.+"), "."); //.이 1개 이상 있을 경우
