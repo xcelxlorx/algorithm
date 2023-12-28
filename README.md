@@ -1,4 +1,11 @@
 # algorithm
+## util
+### 시간 단축
+```
+ios::sync_with_stdio(false);
+cin.tie(NULL);
+cout.tie(NULL);
+```
 ## STL
 ### queue
 ```
