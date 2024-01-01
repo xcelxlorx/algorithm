@@ -109,6 +109,11 @@ s = regex_replace(s, regex("^\\."), ""); //맨 앞에 .이 있을 경우
 s = regex_replace(s, regex("\\.$"), ""); //맨 뒤에 .이 있을 경우
 ```
 
+### binary_search
+```
+cout << binary_search(v.begin(), v.end(), target) << ' ';
+```
+
 ## function
 ### replace_all
 ```
