@@ -114,6 +114,13 @@ s = regex_replace(s, regex("\\.$"), ""); //맨 뒤에 .이 있을 경우
 cout << binary_search(v.begin(), v.end(), target) << ' ';
 ```
 
+### lower_bound, upper_bound
+[binary search로 lower_bound 구현](https://github.com/xcelxlorx/algorithm/blob/main/boj/binary_search/%5BG2%5D%2012015%20%EA%B0%80%EC%9E%A5%20%EA%B8%B4%20%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%202.cpp)
+```
+int idx = lower_bound(x.begin(), x.end(), target) - x.begin(); 		
+```
+
+
 ## function
 ### replace_all
 ```
