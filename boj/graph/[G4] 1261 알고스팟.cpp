@@ -4,7 +4,6 @@
 #include <vector>
 #include <queue>
 #define INF 987654321
-
 using namespace std;
 
 vector<string> v;
@@ -13,18 +12,16 @@ int dx[4] = { 0, 0, 1, -1 };
 int dy[4] = { 1, -1, 0, 0 };
 
 int dijkstra() {
-	queue<pair<int, int>> q; //시작, 끝, 부순 벽의 개수
+	queue<pair<int, int>> q;
 	vector<vector<int>> dist(n, vector<int>(m, INF));
-  
-  q.push({ 0, 0 });
+	
+	q.push({ 0, 0 });
 	dist[0][0] = 0;
 
 	while (!q.empty()) {
 		auto p = q.front();
 		int x = p.first, y = p.second;
 		q.pop();
-
-		if (answer < dist[x][y]) continue;
 
 		for (int k = 0; k < 4; k++) {
 			int nx = x + dx[k], ny = y + dy[k];
