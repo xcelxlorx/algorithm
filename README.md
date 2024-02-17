@@ -120,9 +120,13 @@ cout << binary_search(v.begin(), v.end(), target) << ' ';
 int idx = lower_bound(x.begin(), x.end(), target) - x.begin(); 		
 ```
 
-### find
+### find, find_if
 ```
+//find
 int pos = find(seoul.begin(), seoul.end(), "Kim") - seoul.begin();
+
+//find_if
+auto it = find_if(numbers.begin(), numbers.end(), [&](const auto &e){ return e == i; });
 ```
 
 
