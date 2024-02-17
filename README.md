@@ -120,6 +120,11 @@ cout << binary_search(v.begin(), v.end(), target) << ' ';
 int idx = lower_bound(x.begin(), x.end(), target) - x.begin(); 		
 ```
 
+### find
+```
+int pos = find(seoul.begin(), seoul.end(), "Kim") - seoul.begin();
+```
+
 
 ## function
 ### replace_all
