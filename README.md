@@ -78,6 +78,10 @@ transform(s.begin(), s.end(), s.begin(), ::tolower);
 
 ### erase & remove_if
 ```
+//erase
+auto it = min_element(arr.begin(), arr.end());
+arr.erase(it);
+
 s.erase(remove_if(s.begin(), s.end(), [](char c){
   return c == '.';
 }), s.end());
