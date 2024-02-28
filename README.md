@@ -133,6 +133,10 @@ int pos = find(seoul.begin(), seoul.end(), "Kim") - seoul.begin();
 auto it = find_if(numbers.begin(), numbers.end(), [&](const auto &e){ return e == i; });
 ```
 
+### unique & erase
+```
+answer.erase(unique(answer.begin(), answer.end()), answer.end());
+```
 
 ## function
 ### replace_all
