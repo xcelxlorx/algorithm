@@ -138,6 +138,12 @@ auto it = find_if(numbers.begin(), numbers.end(), [&](const auto &e){ return e =
 answer.erase(unique(answer.begin(), answer.end()), answer.end());
 ```
 
+### replace
+```
+s.replace(i, 3, ""); //i=pos
+s.replace(s.find("abc"), 3, "");
+```
+
 ## function
 ### replace_all
 ```
