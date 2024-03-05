@@ -149,6 +149,15 @@ s.replace(s.find("abc"), 3, "");
 int zero = count(lottos.begin(), lottos.end(), 0);
 ```
 
+### union, intersection, difference
+```
+vector<char> vn(vx.size() + vy.size());
+auto iter = set_union(vx.begin(), vx.end(), vy.begin(), vy.end(), vn.begin()); //합집합
+auto iter = set_intersection(vx.begin(), vx.end(), vy.begin(), vy.end(), vn.begin()); //교집합
+auto iter = set_difference(vx.begin(), vx.end(), vy.begin(), vy.end(), vn.begin()); //차집합
+vn.erase(iter, vn.end()); //남는 부분 지우기
+```
+
 ## function
 ### replace_all
 ```
