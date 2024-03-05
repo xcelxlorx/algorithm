@@ -144,6 +144,11 @@ s.replace(i, 3, ""); //i=pos
 s.replace(s.find("abc"), 3, "");
 ```
 
+### count
+```
+int zero = count(lottos.begin(), lottos.end(), 0);
+```
+
 ## function
 ### replace_all
 ```
