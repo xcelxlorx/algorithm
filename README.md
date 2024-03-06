@@ -158,6 +158,12 @@ auto iter = set_difference(vx.begin(), vx.end(), vy.begin(), vy.end(), vn.begin(
 vn.erase(iter, vn.end()); //남는 부분 지우기
 ```
 
+### inner_product
+```
+//a * b
+int answer = inner_product(A.begin(), A.end(), B.begin(), 0);
+```
+
 ## function
 ### replace_all
 ```
