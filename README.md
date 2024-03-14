@@ -151,6 +151,7 @@ int zero = count(lottos.begin(), lottos.end(), 0);
 
 ### union, intersection, difference
 ```
+//정렬되어 있어야 함
 vector<char> vn(vx.size() + vy.size());
 auto iter = set_union(vx.begin(), vx.end(), vy.begin(), vy.end(), vn.begin()); //합집합
 auto iter = set_intersection(vx.begin(), vx.end(), vy.begin(), vy.end(), vn.begin()); //교집합
