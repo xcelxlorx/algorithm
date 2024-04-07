@@ -1,4 +1,4 @@
-## 입력
+### 입력: BufferedReader
 ```
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,6 +15,10 @@ public class Main {
         int a = Integer.parseInt(input[0]);
     }
 }
-
 ```
 
+### 문자 -> 숫자: getNumericValue()
+```
+String b = br.readLine();
+int n1 = Character.getNumericValue(b.charAt(2));
+```
