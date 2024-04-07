@@ -22,3 +22,9 @@ public class Main {
 String b = br.readLine();
 int n1 = Character.getNumericValue(b.charAt(2));
 ```
+
+### long
+```
+//long은 10^18까지 가능
+long n1 = Long.parseLong(input[0]);
+```
