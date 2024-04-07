@@ -10,11 +10,18 @@ public class Main {
         String name = br.readLine();
         int year = Integer.parseInt(br.readLine());
 
+        //write
         for(int i = 0; i < t; i++) {
             String[] arr = br.readLine().split(" ");
             bw.write(Integer.parseInt(arr[0]) + Integer.parseInt(arr[1]) + "\n");
         }
         bw.flush();
+
+        //계속 입력
+        String s;
+        while((s = br.readLine()) != null){
+            System.out.println(s);
+        }
     }
 }
 ```
