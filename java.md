@@ -30,4 +30,6 @@ long n1 = Long.parseLong(input[0]);
 ```
 
 ### Math
+```
 System.out.println(Math.max(Math.max(n1, n2), n3) * 100);
+```
