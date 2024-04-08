@@ -42,3 +42,15 @@ long n1 = Long.parseLong(input[0]);
 ```
 System.out.println(Math.max(Math.max(n1, n2), n3) * 100);
 ```
+
+### 비교: equals
+```
+//값 비교 - equals
+//주소값 비교 - ==
+s.equals("dz=")
+```
+
+### 문자열: substring
+```
+s.substring(시작 인덱스, 끝 인덱스) //[begin, end)
+```
