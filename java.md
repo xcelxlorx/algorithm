@@ -54,3 +54,10 @@ s.equals("dz=")
 ```
 s.substring(시작 인덱스, 끝 인덱스) //[begin, end)
 ```
+
+### Map
+```
+Map<String, Double> m = new HashMap<>();
+m.put("A+", 4.5);
+m.get(cls[2]);
+```
