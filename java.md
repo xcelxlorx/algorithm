@@ -50,9 +50,14 @@ System.out.println(Math.max(Math.max(n1, n2), n3) * 100);
 s.equals("dz=")
 ```
 
-### 문자열: substring
+### 문자열: substring, StringBuilder
 ```
+//substring
 s.substring(시작 인덱스, 끝 인덱스) //[begin, end)
+
+//string builder(+보다 빠름)
+StringBuilder sb = new StringBuilder();
+sb.append(q.peek()).append(" ");
 ```
 
 ### Map
@@ -67,6 +72,13 @@ m.get(cls[2]);
 import java.util.Stack;
 Stack<String> st = new Stack<>();
 st.peek(); //stack top
+```
+
+### Queue
+```
+import java.util.*;
+Queue<String> q = new LinkedList<>();
+q.offer(b[i]);
 ```
 
 ### Deque
