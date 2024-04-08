@@ -61,3 +61,10 @@ Map<String, Double> m = new HashMap<>();
 m.put("A+", 4.5);
 m.get(cls[2]);
 ```
+
+### 스택
+```
+import java.util.Stack;
+Stack<String> st = new Stack<>();
+st.peek(); //stack top
+```
