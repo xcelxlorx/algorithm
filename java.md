@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out), 1 << 25); //버퍼 크기는 8192 char이므로 넘으면 늘려준다. 
 
         String name = br.readLine();
         int year = Integer.parseInt(br.readLine());
