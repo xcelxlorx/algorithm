@@ -129,6 +129,8 @@ cp.addAll(b); // o
 ### sort
 ```
 //list 정렬
+//(숫자 비교 시 정수로 넣어야 함. 문자열은 99 > 100)
 import java.util.Collections;
-Collections.sort(list);
+Collections.sort(list); 
+Collections.sort(list, Collections.reverseOrder()); //desc
 ```
