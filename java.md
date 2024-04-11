@@ -65,6 +65,17 @@ sb.append(q.peek()).append(" ");
 Map<String, Double> m = new HashMap<>();
 m.put("A+", 4.5);
 m.get(cls[2]);
+
+//map for
+for(var entry: mp.entrySet()){
+    if(entry.getValue() > 1) dup++;
+}
+
+//map은 null 체크해야 함
+for(int i = 0; i < m; i++) {
+    if(mp.get(input2[i]) == null) mp.put(input2[i], 1);
+    else mp.put(input2[i], mp.get(input2[i]) + 1);
+}
 ```
 
 ### Stack
@@ -95,7 +106,22 @@ dq.pollFirst(); //앞에 pop
 ```
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
+
 Set<String> s = new HashSet<>();
+Set<String> s = new TreeSet<>(); //사전순 정렬
 s.add(str);
 if(s.contains(str)) cnt++; //set에 있는지 확인
+s.remove(str[0]); //원소가 없으면 무시됨
+s.clear();
+
+//[set 내림차순 출력] descendingSet()
+for(String e : ((TreeSet<String>)s).descendingSet()) {
+    System.out.println(e);
+}
+
+//[set 복사하기]
+Set<String> cp = b; //얕은 복사 -> x
+cp.addAll(b); // o
+
 ```
