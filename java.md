@@ -125,3 +125,10 @@ Set<String> cp = b; //얕은 복사 -> x
 cp.addAll(b); // o
 
 ```
+
+### sort
+```
+//list 정렬
+import java.util.Collections;
+Collections.sort(list);
+```
