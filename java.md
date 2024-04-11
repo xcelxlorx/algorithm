@@ -90,3 +90,12 @@ dq.peekFirst(); //front
 dq.peekLast(); //back
 dq.pollFirst(); //앞에 pop
 ```
+
+### Set
+```
+import java.util.HashSet;
+import java.util.Set;
+Set<String> s = new HashSet<>();
+s.add(str);
+if(s.contains(str)) cnt++; //set에 있는지 확인
+```
