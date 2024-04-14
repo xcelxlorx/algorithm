@@ -181,6 +181,13 @@ int gcd(int x, int y) {
 }
 ```
 
+### 소숫점 자리 고정
+```
+cout << fixed;
+cout.precision(3);
+//ex) 1.123 
+```
+
 ## function
 ### replace_all
 ```
