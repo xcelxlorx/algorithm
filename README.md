@@ -23,6 +23,7 @@ long long sum1 = accumulate(v.begin(), v.end(), 0LL);
 string s = to_string("12345");
 char c = s.front(); //맨 앞 문자
 c = s.back(); //맨 뒤 문자
+s = a + s //s += a보다 훨씬 느림 
 ```
 
 ### stoi, stol, stoll, stof, stod
@@ -142,6 +143,12 @@ answer.erase(unique(answer.begin(), answer.end()), answer.end());
 ```
 s.replace(i, 3, ""); //i=pos
 s.replace(s.find("abc"), 3, "");
+```
+
+### reverse
+```
+#include <algorithm>
+reverse(answer.begin(), answer.end());
 ```
 
 ### count
