@@ -2,7 +2,7 @@
 //왼쪽이랑 비교: s[2], 오른쪽이랑 비교: s[6]
 #include <iostream>
 #include <vector>
-#define INF 987654321
+
 using namespace std;
 
 
