@@ -172,6 +172,11 @@ vn.erase(iter, vn.end()); //남는 부분 지우기
 int answer = inner_product(A.begin(), A.end(), B.begin(), 0);
 ```
 
+### vector insert
+```
+line.insert(line.begin() + e, i + 1);
+```
+
 ### gcd
 ```
 //반복문
